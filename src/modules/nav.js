@@ -1,6 +1,6 @@
 export function createNavBar(baseNode) {
 
-    const navbar = document.createElement("div");
+    const navbar = document.createElement("nav");
     navbar.classList.add("navbar");
 
     const logo = document.createElement("img");

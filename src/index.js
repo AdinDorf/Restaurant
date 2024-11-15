@@ -3,13 +3,13 @@ import { createHome } from "./modules/home";
 import { createMenu } from "./modules/menu";
 import { createNavBar } from "./modules/nav";
 import "./styles.css";
-const baseNode = document.getElementById("base");
+const header = document.getElementById("header");
 const contentNode = document.getElementById("content");
 // const homeButton = document.getElementById("homeButton");
 // const menuutton = document.getElementById("menuButton");
 // const aboutButton = document.getElementById("aboutButton");
 
-createNavBar(baseNode);
+createNavBar(header);
 createHome(contentNode);
 
 const buttons = document.querySelectorAll("button");
