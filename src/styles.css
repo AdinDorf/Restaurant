@@ -1,0 +1,17 @@
+* {
+    font-size: large;
+}
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+}
+
+.navbar > * {
+    justify-content: right;
+    display: flex;
+    gap: 1em;
+}
+
+p {
+    justify-content: center;
+}
